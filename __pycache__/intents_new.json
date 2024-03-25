@@ -1,0 +1,434 @@
+{
+    "intents": [
+    {
+        "tag": "depression",
+        "patterns": [
+          "Sadness",
+          "Hopelessness",
+          "Fatigue",
+          "Sleep disturbances",
+          "Isolation",
+          "Lack of interest",
+          "Guilt",
+          "Suicidal thoughts",
+          "Loss of appetite",
+          "Persistent low mood",
+          "Decreased energy",
+          "Difficulty concentrating",
+          "Feelings of worthlessness",
+          "Changes in weight",
+          "Apathy"
+        ],
+        "responses": [
+          "I'm sorry to hear that you're experiencing such deep sadness. It's important to recognize that you're not alone in this. Let's explore strategies together to navigate through these difficult emotions and find a path towards healing.",
+          "Feelings of hopelessness can be overwhelming, but it's crucial to understand that there is help available. Together, we can work on coping mechanisms and therapeutic approaches to bring about positive changes in your life.",
+          "Fatigue and sleep disturbances are common in depression. Establishing a healthy routine and incorporating self-care practices can significantly impact your energy levels and overall well-being. Let's discuss personalized strategies for you.",
+          "Isolation is a common symptom of depression, and connecting with others is an important step in the healing process. We can explore ways to build a support system and enhance your social interactions to improve your mental health.",
+          "Lack of interest in activities is a key aspect of depression. Let's work on identifying activities that bring you joy and purpose, helping you rediscover a sense of fulfillment and engagement in your daily life."
+        ]
+    },
+    {
+        "tag": "depressive_disorders",
+        "patterns": [
+          "What are the signs of depression?",
+          "How to deal with a low mood?",
+          "Tell me about depression management strategies",
+          "Coping with the loss of interest in activities",
+          "Tips for improving motivation during depression",
+          "How to support someone with depressive symptoms?",
+          "Share mindfulness exercises for depression relief",
+          "Explain the link between depression and isolation",
+          "What are grounding techniques for depressive episodes?",
+          "How can I establish a daily routine to manage depression?"
+        ],
+        "responses": [
+          "Depression is a serious concern. Let's explore strategies to cope with it.",
+          "Dealing with depression is important. I can suggest techniques to help.",
+          "Managing depressive symptoms involves self-care. Let's discover what works for you."
+        ]
+      },
+      {
+        "tag": "attention_deficit_hyperactivity_disorder",
+        "patterns": [
+          "What are the symptoms of ADHD?",
+          "How to manage attention difficulties?",
+          "Tell me about strategies for dealing with hyperactivity",
+          "Coping with impulsivity in daily life",
+          "Tips for organizing tasks with ADHD",
+          "How can parents support children with ADHD?",
+          "Share mindfulness exercises for ADHD management",
+          "Explain the impact of ADHD on academic performance",
+          "What are grounding techniques for individuals with ADHD?",
+          "How can I create a structured environment for ADHD?"
+        ],
+        "responses": [
+          "ADHD can be challenging. Let's explore strategies to manage its symptoms.",
+          "Managing ADHD is crucial. I can suggest techniques to help.",
+          "Coping with attention and hyperactivity involves self-care. Let's discover what works for you."
+        ]
+      },
+      {
+        "tag": "eating_disorders",
+        "patterns": [
+          "What are the signs of an eating disorder?",
+          "How to cope with unhealthy eating habits?",
+          "Tell me about strategies for dealing with binge eating",
+          "Coping with body image issues",
+          "Tips for supporting someone with an eating disorder",
+          "How to encourage a healthy relationship with food?",
+          "Share mindfulness exercises for managing eating disorders",
+          "Explain the link between emotions and eating behavior",
+          "What are grounding techniques for individuals with eating disorders?",
+          "How can I develop a positive self-image regarding my body?"
+        ],
+        "responses": [
+          "Eating disorders can be challenging. Let's explore strategies to cope with them.",
+          "Managing eating disorders is crucial. I can suggest techniques to help.",
+          "Coping with eating habits and body image involves self-care. Let's discover what works for you."
+        ]
+      },
+      {
+        "tag": "social_anxiety_disorder",
+        "patterns": [
+          "What are the signs of social anxiety?",
+          "How to cope with social situations causing anxiety?",
+          "Tell me about strategies for overcoming fear of judgment",
+          "Coping with avoidance behaviors in social settings",
+          "Tips for building social confidence",
+          "How to support a friend with social anxiety?",
+          "Share mindfulness exercises for managing social anxiety",
+          "Explain the impact of social anxiety on relationships",
+          "What are grounding techniques for individuals with social anxiety?",
+          "How can I navigate professional settings with social anxiety?"
+        ],
+        "responses": [
+          "Social anxiety can be challenging. Let's explore strategies to cope with it.",
+          "Dealing with social anxiety is important. I can suggest techniques to help.",
+          "Coping with social situations involves self-care. Let's discover what works for you."
+        ]
+      },
+      {
+        "tag": "post_traumatic_stress_disorder",
+        "patterns": [
+          "What are the symptoms of post-traumatic stress disorder (PTSD)?",
+          "How to cope with flashbacks and intrusive memories?",
+          "Tell me about strategies for dealing with hypervigilance",
+          "Coping with emotional numbness in PTSD",
+          "Tips for supporting a loved one with PTSD",
+          "How to encourage a sense of safety after trauma?",
+          "Share mindfulness exercises for managing PTSD symptoms",
+          "Explain the impact of PTSD on daily functioning",
+          "What are grounding techniques for individuals with PTSD?",
+          "How can I create a supportive environment for someone with PTSD?"
+        ],
+        "responses": [
+          "Post-traumatic stress disorder (PTSD) can be challenging. Let's explore strategies to cope with it.",
+          "Dealing with PTSD is important. I can suggest techniques to help.",
+          "Coping with trauma involves self-care. Let's discover what works for you."
+        ]
+      },
+      {
+        "tag": "bipolar_disorder",
+        "patterns": [
+          "What are the signs of bipolar disorder?",
+          "How to manage mood swings?",
+          "Tell me about strategies for dealing with depressive episodes",
+          "Coping with impulsivity during manic phases",
+          "Tips for maintaining stability with bipolar disorder",
+          "How can friends and family support someone with bipolar disorder?",
+          "Share mindfulness exercises for managing bipolar symptoms",
+          "Explain the impact of bipolar disorder on relationships",
+          "What are grounding techniques for individuals with bipolar disorder?",
+          "How can I establish a routine to manage bipolar symptoms?"
+        ],
+        "responses": [
+          "Bipolar disorder can be challenging. Let's explore strategies to manage its symptoms.",
+          "Dealing with bipolar disorder is important. I can suggest techniques to help.",
+          "Coping with mood swings involves self-care. Let's discover what works for you."
+        ]
+      },
+      {
+        "tag": "obsessive_compulsive_disorder",
+        "patterns": [
+          "What are the symptoms of obsessive-compulsive disorder (OCD)?",
+          "How to cope with intrusive thoughts and compulsive behaviors?",
+          "Tell me about strategies for dealing with obsessive rituals",
+          "Coping with anxiety related to OCD",
+          "Tips for supporting someone with OCD",
+          "How to encourage a structured approach to managing OCD?",
+          "Share mindfulness exercises for OCD symptom relief",
+          "Explain the impact of OCD on daily life",
+          "What are grounding techniques for individuals with OCD?",
+          "How can I create a supportive environment for someone with OCD?"
+        ],
+        "responses": [
+          "Obsessive-compulsive disorder (OCD) can be challenging. Let's explore strategies to cope with it.",
+          "Dealing with OCD is important. I can suggest techniques to help.",
+          "Coping with obsessive thoughts involves self-care. Let's discover what works for you."
+        ]
+      },
+      {
+        "tag": "schizophrenia_spectrum_disorders",
+        "patterns": [
+          "What are the signs of schizophrenia spectrum disorders?",
+          "How to cope with hallucinations and delusions?",
+          "Tell me about strategies for managing cognitive symptoms",
+          "Coping with social withdrawal in schizophrenia",
+          "Tips for supporting someone with schizophrenia",
+          "How to encourage a structured routine for individuals with schizophrenia?",
+          "Share mindfulness exercises for managing symptoms of schizophrenia",
+          "Explain the impact of schizophrenia on daily functioning",
+          "What are grounding techniques for individuals with schizophrenia?",
+          "How can I create a supportive environment for someone with schizophrenia?"
+        ],
+        "responses": [
+          "Schizophrenia spectrum disorders can be challenging. Let's explore strategies to cope with them.",
+          "Dealing with schizophrenia symptoms is important. I can suggest techniques to help.",
+          "Coping with cognitive symptoms involves self-care. Let's discover what works for you."
+        ]
+      },
+      {
+        "tag": "borderline_personality_disorder",
+        "patterns": [
+          "What are the signs of borderline personality disorder (BPD)?",
+          "How to cope with intense mood swings and unstable relationships?",
+          "Tell me about strategies for managing self-image issues in BPD",
+          "Coping with fear of abandonment in BPD",
+          "Tips for supporting someone with borderline personality disorder",
+          "How to encourage emotional regulation for individuals with BPD?",
+          "Share mindfulness exercises for BPD symptom relief",
+          "Explain the impact of BPD on interpersonal dynamics",
+          "What are grounding techniques for individuals with BPD?",
+          "How can I create a supportive environment for someone with BPD?"
+        ],
+        "responses": [
+          "Borderline personality disorder (BPD) can be challenging. Let's explore strategies to cope with it.",
+          "Dealing with BPD symptoms is important. I can suggest techniques to help.",
+          "Coping with emotional instability involves self-care. Let's discover what works for you."
+        ]
+      },
+      {
+        "tag": "generalized_anxiety_disorder",
+        "patterns": [
+          "What are the signs of generalized anxiety disorder (GAD)?",
+          "How to cope with constant worrying and excessive anxiety?",
+          "Tell me about strategies for managing physical symptoms of GAD",
+          "Coping with the impact of GAD on daily life",
+          "Tips for supporting someone with generalized anxiety disorder",
+          "How to encourage relaxation techniques for individuals with GAD?",
+          "Share mindfulness exercises for GAD symptom relief",
+          "Explain the link between GAD and sleep disturbances",
+          "What are grounding techniques for individuals with GAD?",
+          "How can I create a calm environment for someone with GAD?"
+        ],
+        "responses": [
+          "Generalized anxiety disorder (GAD) can be challenging. Let's explore strategies to cope with it.",
+          "Dealing with GAD symptoms is important. I can suggest techniques to help.",
+          "Coping with constant worrying involves self-care. Let's discover what works for you."
+        ]
+      },
+      {
+        "tag": "substance_abuse_disorders",
+        "patterns": [
+          "What are the signs of substance abuse disorders?",
+          "How to cope with addiction and cravings?",
+          "Tell me about strategies for managing withdrawal symptoms",
+          "Coping with the impact of substance abuse on relationships",
+          "Tips for supporting someone struggling with substance abuse",
+          "How to encourage a structured approach to addiction recovery?",
+          "Share mindfulness exercises for managing cravings",
+          "Explain the link between mental health and substance abuse",
+          "What are grounding techniques for individuals in addiction recovery?",
+          "How can I create a supportive environment for someone dealing with substance abuse?"
+        ],
+        "responses": [
+          "Substance abuse disorders can be challenging. Let's explore strategies to cope with them.",
+          "Dealing with addiction is important. I can suggest techniques to help.",
+          "Coping with substance abuse involves self-care. Let's discover what works for you."
+        ]
+      },
+      {
+        "tag": "panic_disorder",
+        "patterns": [
+          "What are the signs of panic disorder?",
+          "How to cope with sudden and intense panic attacks?",
+          "Tell me about strategies for managing anticipatory anxiety",
+          "Coping with agoraphobia related to panic disorder",
+          "Tips for grounding techniques during panic attacks",
+          "How to support someone experiencing panic attacks?",
+          "Share mindfulness exercises for panic disorder management",
+          "Explain the link between panic disorder and sleep disturbances",
+          "What are grounding techniques for individuals with panic disorder?",
+          "How can I create a calm environment for someone with panic disorder?"
+        ],
+        "responses": [
+          "Panic disorder can be challenging. Let's explore strategies to cope with it.",
+          "Dealing with panic attacks is important. I can suggest techniques to help.",
+          "Coping with anticipatory anxiety involves self-care. Let's discover what works for you."
+        ]
+      },
+      {
+        "tag": "body_dysmorphic_disorder",
+        "patterns": [
+          "What are the signs of body dysmorphic disorder (BDD)?",
+          "How to cope with obsessive focus on perceived flaws?",
+          "Tell me about strategies for managing compulsive behaviors in BDD",
+          "Coping with the impact of BDD on self-esteem",
+          "Tips for supporting someone with body dysmorphic disorder",
+          "How to encourage positive self-perception for individuals with BDD?",
+          "Share mindfulness exercises for BDD symptom relief",
+          "Explain the link between body dysmorphic disorder and social withdrawal",
+          "What are grounding techniques for individuals with BDD?",
+          "How can I create a supportive environment for someone with body dysmorphic disorder?"
+        ],
+        "responses": [
+          "Body dysmorphic disorder (BDD) can be challenging. Let's explore strategies to cope with it.",
+          "Dealing with obsessive self-perception is important. I can suggest techniques to help.",
+          "Coping with BDD involves self-care. Let's discover what works for you."
+        ]
+      },
+      {
+        "tag": "major_depressive_disorder",
+        "patterns": [
+          "What are the signs of major depressive disorder (MDD)?",
+          "How to cope with persistent feelings of sadness?",
+          "Tell me about strategies for managing loss of interest in activities",
+          "Coping with disruptions in sleep patterns due to MDD",
+          "Tips for supporting someone with major depressive disorder",
+          "How to encourage a structured daily routine for individuals with MDD?",
+          "Share mindfulness exercises for MDD symptom relief",
+          "Explain the link between MDD and difficulty concentrating",
+          "What are grounding techniques for individuals with MDD?",
+          "How can I create a supportive environment for someone with major depressive disorder?"
+        ],
+        "responses": [
+          "Major depressive disorder (MDD) can be challenging. Let's explore strategies to cope with it.",
+          "Dealing with persistent sadness is important. I can suggest techniques to help.",
+          "Coping with major depressive disorder involves self-care. Let's discover what works for you."
+        ]
+      },
+      {
+        "tag": "autism_spectrum_disorder",
+        "patterns": [
+          "What are the signs of autism spectrum disorder (ASD)?",
+          "How to support individuals with ASD in social settings?",
+          "Tell me about strategies for managing sensory sensitivities in ASD",
+          "Coping with challenges in communication and social interaction",
+          "Tips for supporting parents of children with autism spectrum disorder",
+          "How to encourage a structured and predictable environment for individuals with ASD?",
+          "Share mindfulness exercises for managing stress in ASD",
+          "Explain the link between ASD and repetitive behaviors",
+          "What are grounding techniques for individuals with ASD?",
+          "How can I create an inclusive environment for someone with autism spectrum disorder?"
+        ],
+        "responses": [
+          "Autism spectrum disorder (ASD) can present unique challenges. Let's explore strategies to support individuals with it.",
+          "Supporting individuals with ASD is important. I can suggest techniques to help.",
+          "Creating an inclusive environment involves understanding and self-care. Let's discover what works for you."
+        ]
+      },
+      {
+        "tag": "attention_deficit_disorder",
+        "patterns": [
+          "What are the signs of attention deficit disorder (ADD)?",
+          "How to cope with attention difficulties and distractibility?",
+          "Tell me about strategies for managing impulsivity in ADD",
+          "Coping with challenges in organizational skills",
+          "Tips for supporting children with attention deficit disorder",
+          "How to encourage a structured and supportive learning environment for individuals with ADD?",
+          "Share mindfulness exercises for managing attention difficulties",
+          "Explain the link between ADD and difficulties in focusing",
+          "What are grounding techniques for individuals with ADD?",
+          "How can I create an understanding environment for someone with attention deficit disorder?"
+        ],
+        "responses": [
+          "Attention deficit disorder (ADD) can present challenges in focus and organization. Let's explore strategies to cope with it.",
+          "Dealing with attention difficulties is important. I can suggest techniques to help.",
+          "Creating a supportive environment involves understanding and self-care. Let's discover what works for you."
+        ]
+      },
+      {
+        "tag": "phobias",
+        "patterns": [
+          "What are common signs of specific phobias?",
+          "How to cope with overwhelming fear triggered by phobias?",
+          "Tell me about strategies for gradual exposure in phobia management",
+          "Coping with avoidance behaviors related to phobias",
+          "Tips for supporting someone with specific phobias",
+          "How to encourage a step-by-step approach to facing phobias?",
+          "Share mindfulness exercises for managing phobia-related anxiety",
+          "Explain the link between phobias and panic attacks",
+          "What are grounding techniques for individuals with specific phobias?",
+          "How can I create a supportive environment for someone with phobias?"
+        ],
+        "responses": [
+          "Phobias can be challenging to navigate. Let's explore strategies to cope with specific fears.",
+          "Coping with phobias is crucial. I can suggest techniques to help.",
+          "Managing phobias involves a step-by-step approach. Let's discover what works for you."
+        ]
+      },
+      {
+        "tag": "disruptive_mood_dysregulation_disorder",
+        "patterns": [
+          "What are the signs of disruptive mood dysregulation disorder (DMDD)?",
+          "How to cope with severe and recurrent temper outbursts?",
+          "Tell me about strategies for managing irritability in DMDD",
+          "Coping with disruptions in daily functioning due to DMDD",
+          "Tips for supporting children with disruptive mood dysregulation disorder",
+          "How to encourage a consistent routine for individuals with DMDD?",
+          "Share mindfulness exercises for managing mood dysregulation",
+          "Explain the link between DMDD and difficulties in peer relationships",
+          "What are grounding techniques for individuals with disruptive mood dysregulation disorder?",
+          "How can I create a supportive environment for someone with DMDD?"
+        ],
+        "responses": [
+          "Disruptive mood dysregulation disorder (DMDD) can be challenging. Let's explore strategies to cope with severe mood fluctuations.",
+          "Dealing with temper outbursts and irritability is important. I can suggest techniques to help.",
+          "Creating a supportive environment involves understanding and self-care. Let's discover what works for you."
+        ]
+      },
+      {
+        "tag": "antisocial_personality_disorder",
+        "patterns": [
+          "What are the signs of antisocial personality disorder (ASPD)?",
+          "How to cope with behaviors such as deceit and impulsivity in ASPD?",
+          "Tell me about strategies for managing lack of remorse or empathy",
+          "Coping with difficulties in forming and maintaining relationships in ASPD",
+          "Tips for supporting individuals with antisocial personality disorder",
+          "How to encourage personal responsibility and accountability for individuals with ASPD?",
+          "Share mindfulness exercises for managing impulsivity and aggression",
+          "Explain the link between ASPD and criminal behavior",
+          "What are grounding techniques for individuals with antisocial personality disorder?",
+          "How can I create a safe environment for someone with ASPD?"
+        ],
+        "responses": [
+          "Antisocial personality disorder (ASPD) can present significant challenges. Let's explore strategies to cope with its unique aspects.",
+          "Coping with behaviors like deceit and impulsivity is crucial. I can suggest techniques to help.",
+          "Creating a supportive environment involves understanding and self-care. Let's discover what works for you."
+        ]
+      }
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+
+
+    ]
+}

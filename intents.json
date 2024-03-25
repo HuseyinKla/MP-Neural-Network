@@ -1,342 +1,506 @@
 {
   "intents": [
-    {
-      "tag": "greeting",
+  {
+      "tag": "Greeting",
       "patterns": [
-        "Hi there!",
-        "Greetings!",
-        "Hello, how can I assist you today?",
-        "Hey, what's up?",
-        "Welcome!",
-        "Good day to you!"
+          "Hello",
+          "Hi",
+          "Greetings",
+          "Hey",
+          "Good day",
+          "Howdy",
+          "Salutations"
       ],
       "responses": [
-        "Hello! I'm here to help. How are you feeling today?",
-        "Greetings! Thanks for reaching out. How can I support you?",
-        "Hi there! What brings you here? Feel free to share.",
-        "Hey! How can I assist you today?",
-        "Welcome! I'm here to chat. What's on your mind?",
-        "Good day! How can I make your day better?"
+          "Hello! It's great to see you. How can I assist you today?",
+          "Hi there! I'm here and ready to help. What brings you to our conversation?",
+          "Greetings! I hope you're having a wonderful day. How may I support you?",
+          "Hey! Welcome! What can I do for you today?",
+          "Good day! I'm here and ready to assist you with anything you need.",
+          "Howdy! It's great to have you here. What can I do for you today?",
+          "Salutations! I'm here to help. What brings you to our conversation?",
+          "Welcome! I'm here and ready to assist you. How may I support you?"
       ]
-    },
-    {
-      "tag": "goodbye",
+  },
+  {
+      "tag": "Goodbye",
       "patterns": [
-        "Goodbye for now",
-        "Farewell",
-        "See you later, take care!",
-        "Until we meet again",
-        "Goodbye, have a great day",
-        "Adios!"
+          "Goodbye",
+          "Farewell",
+          "See you",
+          "Bye",
+          "So long",
+          "Take care",
+          "Until next time",
+          "Adieu",
+          "Ciao",
+          "Adios"
       ],
       "responses": [
-        "Goodbye for now! Take care of yourself.",
-        "Farewell! If you ever need assistance, I'll be here.",
-        "See you later! Take care and have a great day.",
-        "Until we meet again! Feel free to return anytime.",
-        "Goodbye, have a great day ahead!",
-        "Adios! If you ever need someone to talk to, I'm here."
+          "Goodbye! If you ever need assistance again, feel free to reach out. Take care!",
+          "Farewell! It was a pleasure assisting you. If you have more questions, don't hesitate to ask.",
+          "See you! If there's anything else I can help you with, just let me know. Take care!",
+          "Bye for now! Feel free to return whenever you need support. Have a great day!",
+          "So long! If you ever have more inquiries, I'll be here to help. Take care!",
+          "Take care! If there's anything else on your mind, don't hesitate to reach out. Goodbye!",
+          "Until next time! It was great talking with you. If you need assistance, I'm here.",
+          "Adieu! If there's anything else you require, feel free to ask. Take care!",
+          "Ciao! If you ever want to chat again, I'll be here. Have a wonderful day!",
+          "Adios! It's been a pleasure assisting you. If you have more questions, feel free to return."
       ]
-    },
-    {
-      "tag": "thanks",
+  },
+  {
+      "tag": "Thanks",
       "patterns": [
-        "Thanks a bunch!",
-        "Thank you so much!",
-        "Appreciate your help",
-        "Thanks for being here",
-        "You're awesome!",
-        "Big thank you!"
+          "Appreciate it",
+          "Grateful",
+          "Thank you",
+          "Thanks",
+          "Thanks a lot",
+          "Many thanks",
+          "Thank you very much",
+          "Thanks again",
+          "I appreciate your help"
       ],
       "responses": [
-        "You're welcome! If you have more questions, feel free to ask.",
-        "Thank you! I'm here to assist whenever you need.",
-        "Appreciate your kind words! If there's anything else, let me know.",
-        "Thanks for being here! If you need support, I'm just a message away.",
-        "You're awesome too! Let me know how I can further assist you.",
-        "Big thank you! It's my pleasure to help. Anything else on your mind?"
+          "You're welcome! If you ever have more questions, feel free to ask. Thank you for reaching out!",
+          "Thanks! It was my pleasure to assist you. If there's anything else, don't hesitate to let me know.",
+          "Appreciate it! If you need further support, I'm here. Thank you for using our services!",
+          "Grateful for the opportunity to help! If there's anything else on your mind, feel free to reach out. Thank you!",
+          "Thank you so much! If you have more inquiries in the future, I'll be here to assist you. Take care!",
+          "Thanks a lot! It's always a pleasure to help. If you ever need assistance again, don't hesitate to ask.",
+          "Many thanks! If there's anything else I can do for you, feel free to let me know. Thank you for choosing our service!",
+          "Thank you very much! If you ever want to chat again, I'll be here. Take care and thanks for reaching out!",
+          "Thanks again! If there's anything else you require, don't hesitate to reach out. I appreciate your interaction!",
+          "I appreciate your help! If you have more questions or concerns, I'm here to assist you. Thank you for your inquiry!"
       ]
-    },
-    {
-      "tag": "funny",
+  },
+  {
+      "tag": "Funny",
       "patterns": [
-        "Tell me a joke!",
-        "Make me laugh!",
-        "Got any funny stories?",
-        "Humor me!",
-        "Need a good laugh!",
-        "Share something amusing!"
+          "Joke",
+          "Laugh",
+          "Entertain",
+          "Humor",
+          "Smile"
       ],
       "responses": [
-        "Why don't scientists trust atoms? Because they make up everything!",
-        "What's a computer's favorite snack? Microchips!",
-        "Why did the scarecrow win an award? Because he was outstanding in his field!",
-        "I used to play piano by ear, but now I use my hands and fingers.",
-        "Parallel lines have so much in common. It's a shame they'll never meet."
+          "Why don't scientists trust atoms? Because they make up everything!",
+          "How does a penguin build its house? Igloos it together!",
+          "Why did the bicycle fall over? It was two-tired!",
+          "What's orange and sounds like a parrot? A carrot!",
+          "I told my wife she should embrace her mistakes. She gave me a hug.",
+          "What do you call fake spaghetti? An impasta!",
+          "Why don't skeletons fight each other? They don't have the guts!",
+          "I only know 25 letters of the alphabet. I don't know y.",
+          "What did one hat say to the other? Stay here, I'm going on ahead!",
+          "Why did the scarecrow win an award? Because he was outstanding in his field!"
       ]
-    },
-    {
-      "tag": "psych_conditions",
+  },
+  {
+      "tag": "Depression",
       "patterns": [
-        "I'm dealing with social anxiety",
-        "Living with bipolar disorder",
-        "Coping with PTSD",
-        "Struggling with eating disorders",
-        "Managing ADHD",
-        "Dealing with seasonal affective disorder (SAD)",
-        "Living with borderline personality disorder (BPD)",
-        "Coping with self-harm urges",
-        "I have generalized anxiety disorder (GAD)",
-        "Living with postpartum depression"
+        "Sadness",
+        "Hopelessness",
+        "Fatigue",
+        "Sleep disturbances",
+        "Isolation",
+        "Lack of interest",
+        "Guilt",
+        "Suicidal thoughts",
+        "Loss of appetite",
+        "Persistent low mood",
+        "Decreased energy",
+        "Difficulty concentrating",
+        "Feelings of worthlessness",
+        "Changes in weight",
+        "Apathy"
       ],
       "responses": [
-        "I'm here for you. Can you share more about your experiences?",
-        "Thank you for opening up. How has it been affecting your daily life?",
-        "Let's talk about it. Your feelings are important."
+        "I'm sorry to hear that you're experiencing such deep sadness. It's important to recognize that you're not alone in this. Let's explore strategies together to navigate through these difficult emotions and find a path towards healing.",
+        "Feelings of hopelessness can be overwhelming, but it's crucial to understand that there is help available. Together, we can work on coping mechanisms and therapeutic approaches to bring about positive changes in your life.",
+        "Fatigue and sleep disturbances are common in depression. Establishing a healthy routine and incorporating self-care practices can significantly impact your energy levels and overall well-being. Let's discuss personalized strategies for you.",
+        "Isolation is a common symptom of depression, and connecting with others is an important step in the healing process. We can explore ways to build a support system and enhance your social interactions to improve your mental health.",
+        "Lack of interest in activities is a key aspect of depression. Let's work on identifying activities that bring you joy and purpose, helping you rediscover a sense of fulfillment and engagement in your daily life."
       ]
-    },
-    {
-      "tag": "info_gathering",
+  },
+  {
+      "tag": "Social Anxiety Disorder",
       "patterns": [
-        "Tell me more about yourself",
-        "Can you describe your symptoms?",
-        "When did it start?",
-        "How often do you feel this way?",
-        "Any specific triggers?",
-        "What treatments have you tried?",
-        "Have you spoken to a professional about it?",
-        "How is your sleep pattern?",
-        "Tell me about your support system",
-        "Any recent life changes affecting you?"
+          "Social situations",
+          "Fear of judgment",
+          "Performance anxiety",
+          "Avoidance behavior",
+          "Blushing",
+          "Trembling",
+          "Sweating",
+          "Nervousness",
+          "Negative self-perception",
+          "Excessive self-consciousness",
+          "Difficulty speaking in public",
+          "Fear of embarrassment",
+          "Isolation in social settings",
+          "Self-isolation",
+          "Overanalyzing social interactions"
       ],
       "responses": [
-        "I appreciate your openness. Understanding your experience helps.",
-        "The more details you provide, the better I can assist you.",
-        "Let's explore your feelings together. More information can guide us."
+          "Navigating social situations can be challenging, especially when dealing with the fear of judgment. I'm here to help you explore techniques to manage anxiety and build confidence in various social settings.",
+          "Performance anxiety and the fear of embarrassment are common aspects of social anxiety. Together, we can work on strategies to challenge negative thoughts, enhance self-esteem, and gradually expose yourself to social interactions.",
+          "Avoidance behavior in social situations is understandable, but it's important to address these challenges. Let's develop a step-by-step plan to gradually face and overcome the anxiety associated with social interactions.",
+          "Physical symptoms like blushing and trembling are part of social anxiety. Understanding these reactions and learning coping mechanisms can empower you to navigate social situations with greater ease. Let's explore these strategies together.",
+          "Negative self-perception often accompanies social anxiety. Through therapy, we can work on reframing negative thoughts, fostering self-compassion, and building a more positive self-image to improve your overall well-being."
       ]
-    },
-    {
-      "tag": "therapy_options",
+  },
+  {
+      "tag": "Obsessive-Compulsive Disorder",
       "patterns": [
-        "What are therapy options?",
-        "Tell me about counseling",
-        "Are there online therapy options?",
-        "Recommend a therapist",
-        "How can I find support groups?",
-        "Explain cognitive-behavioral therapy (CBT)",
-        "Tell me about psychotherapy",
-        "How does group therapy work?",
-        "What's the difference between a psychologist and a psychiatrist?",
-        "How effective is mindfulness-based therapy?"
+          "Intrusive thoughts",
+          "Compulsive rituals",
+          "Anxiety provoking obsessions",
+          "Fear of contamination",
+          "Checking behaviors",
+          "Counting rituals",
+          "Washing compulsions",
+          "Hoarding tendencies",
+          "Symmetry concerns",
+          "Doubting thoughts",
+          "Avoidance behaviors",
+          "Mental rituals",
+          "Perfectionism",
+          "Distress",
+          "Time-consuming rituals"
       ],
       "responses": [
-        "Therapy can be beneficial. We can explore various options.",
-        "Considering therapy is a positive step. Let's discuss possibilities.",
-        "I can provide resources for therapists and support groups."
+          "I understand that intrusive thoughts and compulsive rituals can be distressing. Let's work together to identify triggers, develop coping strategies, and gradually reduce the impact of these obsessions and compulsions on your daily life.",
+          "The fear of contamination and washing compulsions are common in OCD. We can explore exposure and response prevention techniques to help you gradually face and overcome these fears, promoting a healthier relationship with daily activities.",
+          "Counting rituals and symmetry concerns can become consuming. In therapy, we can address these behaviors and work towards establishing a more balanced and manageable approach to daily routines.",
+          "Hoarding tendencies and the emotional distress they bring can be challenging. Let's develop strategies to declutter, prioritize, and manage these tendencies to create a more organized and comfortable living space.",
+          "Perfectionism and doubt are integral to OCD. Together, we can explore self-acceptance, challenge unrealistic standards, and develop a more balanced perspective, fostering a sense of calm and fulfillment in your life."
       ]
-    },
-    {
-      "tag": "medication_info",
+  },
+  {
+      "tag": "Schizophrenia",
       "patterns": [
-        "Tell me about medications",
-        "Are there side effects of antidepressants?",
-        "How to manage medication",
-        "Should I consider medication?",
-        "Tell me about natural remedies",
-        "Explain the role of mood stabilizers",
-        "What are the common side effects of antipsychotic medications?",
-        "Tell me about SSRI and SNRI antidepressants",
-        "How long does it take for medications to show effects?",
-        "Are there alternatives to prescription medications?"
+          "Hallucinations",
+          "Delusions",
+          "Disorganized thinking",
+          "Impaired memory",
+          "Social withdrawal",
+          "Emotional flatness",
+          "Difficulty concentrating",
+          "Lack of motivation",
+          "Paranoia",
+          "Incoherent speech",
+          "Lack of insight",
+          "Apathy",
+          "Cognitive deficits",
+          "Sleep disturbances",
+          "Impaired decision-making"
       ],
       "responses": [
-        "Medication is one approach. Let's discuss its pros and cons.",
-        "Understanding medication options is important. Let's explore.",
-        "I can provide information on medications and alternative approaches."
+          "Hallucinations and delusions can be distressing experiences. In therapy, we can work on understanding and managing these symptoms, fostering a sense of control and stability in your life.",
+          "Disorganized thinking and impaired memory can impact daily functioning. Let's explore cognitive strategies and coping mechanisms to enhance your cognitive abilities and improve your overall quality of life.",
+          "Social withdrawal and emotional flatness are common in schizophrenia. Together, we can develop social skills and emotional regulation techniques to improve your interpersonal relationships and emotional well-being.",
+          "Paranoia and incoherent speech can create challenges in communication. Through therapy, we can work on building trust, improving communication skills, and addressing the underlying causes of paranoia.",
+          "Cognitive deficits and impaired decision-making are aspects of schizophrenia that can be addressed through targeted interventions. Let's work together to enhance your cognitive functioning and decision-making abilities for a more fulfilling life."
       ]
-    },
-    {
-      "tag": "self_care_tips",
+  },
+  {
+      "tag": "Bipolar Disorder",
       "patterns": [
-        "What are self-care tips?",
-        "How to practice self-love",
-        "Tell me about stress management",
-        "Any relaxation techniques?",
-        "How to improve mental health",
-        "Share mindfulness exercises",
-        "Tips for maintaining a healthy work-life balance",
-        "Explain the importance of physical exercise for mental health",
-        "What are grounding techniques?",
-        "How can I foster better relationships with others?"
+          "Manic episodes",
+          "Depressive episodes",
+          "Mood swings",
+          "Elevated mood",
+          "Grandiosity",
+          "Increased energy",
+          "Impulsivity",
+          "Irritability",
+          "Sleep disturbances",
+          "Racing thoughts",
+          "Hopelessness",
+          "Loss of interest",
+          "Fatigue",
+          "Suicidal thoughts",
+          "Rapid speech"
       ],
       "responses": [
-        "Self-care is crucial. Let's explore personalized strategies for you.",
-        "Taking care of yourself is vital. I can suggest self-care practices.",
-        "Improving mental health involves self-care. Let's discover what works for you."
+          "Experiencing manic episodes can be intense. Let's work together to understand the patterns, manage impulsivity, and establish strategies to maintain stability during these periods.",
+          "Managing depressive episodes is crucial. Together, we can explore coping mechanisms, develop a support plan, and work towards restoring a sense of hope and motivation in your life.",
+          "Mood swings are a challenging aspect of bipolar disorder. Let's identify triggers, establish routines, and explore lifestyle changes to help stabilize your mood and improve overall well-being.",
+          "Increased energy and impulsivity during manic episodes can impact daily life. Let's collaborate on strategies to channel this energy positively and minimize potential risks.",
+          "Sleep disturbances often accompany bipolar disorder. Developing healthy sleep hygiene habits and exploring relaxation techniques can contribute to mood stability. Let's create a personalized plan for you."
       ]
-    },
-    {
-      "tag": "support_resources",
+  },
+  {
+      "tag": "Eating Disorders",
       "patterns": [
-        "Share mental health hotlines",
-        "How can I access crisis intervention services?",
-        "Tell me about online mental health forums",
-        "Recommend books on mental health",
-        "Suggest mental health apps",
-        "What are the signs of a mental health crisis?",
-        "Tell me about suicide prevention resources",
-        "Explain the importance of a strong social support network",
-        "How to help a friend struggling with mental health issues",
-        "Share success stories of overcoming mental health challenges"
+          "Anoreksiya nervoza",
+          "Bulimia nervoza",
+          "Binge eating",
+          "Excessive exercise",
+          "Body image distortion",
+          "Restrictive eating",
+          "Purging behaviors",
+          "Fear of weight gain",
+          "Guilt and shame",
+          "Obsession with food and weight",
+          "Emotional eating",
+          "Preoccupation with dieting",
+          "Distorted self-perception",
+          "Hoarding food",
+          "Socio-cultural influences"
       ],
       "responses": [
-        "It's important to reach out for support. Here are some resources.",
-        "You're not alone. Consider these resources for additional help.",
-        "Building a support network is crucial. Let me share some resources with you."
+          "Anoreksiya nervoza and restrictive eating patterns can be physically and emotionally challenging. Let's explore balanced nutrition, coping mechanisms, and self-acceptance to promote a healthier relationship with food.",
+          "Bulimia nervoza and purging behaviors can impact both physical and mental well-being. Together, we can work on breaking the cycle, addressing emotional triggers, and establishing healthier coping strategies.",
+          "Binge eating is a common aspect of eating disorders. Developing mindful eating habits, identifying triggers, and managing emotions can contribute to a more balanced approach to food.",
+          "Excessive exercise and its impact on overall health is a concern in eating disorders. Let's discuss healthy exercise habits and explore alternatives to excessive physical activity to support your well-being.",
+          "Body image distortion is often a central issue. Through therapy, we can work on building a more positive self-perception and addressing societal influences that may contribute to negative body image."
       ]
-    },
-    {
-      "tag": "coping_strategies",
+  },
+  {
+      "tag": "Post-Traumatic Stress Disorder",
       "patterns": [
-        "How to cope with anxiety attacks",
-        "Tell me about coping mechanisms for depression",
-        "Ways to manage obsessive thoughts",
-        "Coping strategies for PTSD",
-        "Dealing with mood swings",
-        "Tell me about anger management techniques",
-        "How to overcome social anxiety",
-        "Coping with eating disorder triggers",
-        "Managing ADHD symptoms",
-        "Coping with the stigma of mental illness"
+          "Traumatic event",
+          "Flashbacks",
+          "Nightmares",
+          "Hypervigilance",
+          "Avoidance",
+          "Emotional numbness",
+          "Intrusive thoughts",
+          "Irritability",
+          "Difficulty concentrating",
+          "Sleep disturbances",
+          "Panic attacks",
+          "Anxiety",
+          "Fear of triggers",
+          "Social withdrawal",
+          "Guilt and shame"
       ],
       "responses": [
-        "Coping strategies are important. Let's explore techniques together.",
-        "Developing healthy coping mechanisms is a positive step. Let's discuss.",
-        "I can provide strategies to help you cope with various challenges."
+          "Experiencing flashbacks and nightmares after a traumatic event is challenging. Let's work on grounding techniques, coping mechanisms, and creating a safe space for you to process and heal.",
+          "Hypervigilance and anxiety are common in PTSD. We can explore relaxation exercises, mindfulness, and gradual exposure to help you regain a sense of safety and control in your daily life.",
+          "Avoidance is a coping mechanism, but it can limit your life. Together, we can work on facing triggers in a controlled way, building resilience, and gradually reducing the impact of trauma on your day-to-day experiences.",
+          "Emotional numbness can be isolating. Let's explore ways to reconnect with your emotions, express yourself, and foster a sense of connection with others.",
+          "Guilt and shame are common emotional responses to trauma. Through therapy, we can work on self-compassion, understanding the impact of trauma, and developing strategies for healing and recovery."
       ]
-    },
-    {
-      "tag": "encouragement",
+  },
+  {
+      "tag": "Attention Deficit Hyperactivity Disorder",
       "patterns": [
-        "I feel hopeless",
-        "I don't know if I can go on",
-        "I'm struggling to see the purpose",
-        "Does life get better?",
-        "I need encouragement",
-        "I feel lost",
-        "I can't handle this anymore",
-        "I'm overwhelmed",
-        "I feel like a burden",
-        "I'm afraid of the future"
+          "Inattention",
+          "Hyperactivity",
+          "Impulsivity",
+          "Difficulty focusing",
+          "Forgetfulness",
+          "Restlessness",
+          "Poor time management",
+          "Difficulty organizing tasks",
+          "Fidgeting",
+          "Impulsive decision-making",
+          "Interrupting others",
+          "Lack of attention to details",
+          "Difficulty sustaining attention",
+          "Excessive talking",
+          "Difficulty waiting turn"
       ],
       "responses": [
-        "I'm really sorry to hear that you're feeling this way. You're not alone.",
-        "It's okay to feel overwhelmed. Reach out to someone you trust for support.",
-        "Life can be tough, but reaching out for help is a courageous step.",
-        "You're stronger than you think. Consider talking to a professional about your feelings."
+          "Managing inattention and difficulty focusing is a common challenge in ADHD. Let's explore organizational strategies, time management techniques, and personalized approaches to enhance your focus.",
+          "Hyperactivity and restlessness can impact daily life. Together, we can work on channeling excess energy, incorporating regular breaks, and developing coping strategies to manage restlessness.",
+          "Impulsivity and impulsive decision-making are aspects of ADHD. Let's work on mindfulness techniques, impulse control strategies, and decision-making skills to promote more intentional actions.",
+          "Poor time management is a common concern. Through therapy, we can establish routines, prioritize tasks, and develop strategies to improve your ability to manage time effectively.",
+          "Interrupting others and excessive talking can be challenging. Let's explore communication techniques, active listening skills, and strategies to enhance social interactions while managing ADHD symptoms."
       ]
-    },
-    {
-      "tag": "positive_affirmations",
+  },
+  {
+      "tag": "Personality Disorders",
       "patterns": [
-        "Give me positive affirmations",
-        "I need motivation",
-        "Share uplifting quotes",
-        "Tell me something positive",
-        "Help me focus on the good",
-        "I want to feel inspired",
-        "Encourage me",
-        "Boost my mood",
-        "I need a pick-me-up",
-        "Share a positive story"
+          "Paranoid",
+          "Narcissistic",
+          "Borderline",
+          "Antisocial",
+          "Histrionic",
+          "Avoidant",
+          "Dependent",
+          "Obsessive-compulsive",
+          "Schizoid",
+          "Schizotypal",
+          "Emotional instability",
+          "Impaired interpersonal relationships",
+          "Fear of abandonment",
+          "Lack of empathy",
+          "Rigidity in thinking"
       ],
       "responses": [
-        "You are capable of handling whatever comes your way.",
-        "Believe in yourself. You have the strength to overcome challenges.",
-        "Every day is a new opportunity for positive change.",
-        "Focus on the present moment and find joy in the little things.",
-        "You matter, and your presence makes a difference in the world."
+          "Paranoid personality disorder may involve distrust and suspicion. In therapy, we can explore building trust, developing coping mechanisms, and enhancing your ability to form healthy relationships.",
+          "Narcissistic personality disorder may impact interpersonal dynamics. Let's work on empathy-building exercises, communication skills, and strategies for fostering more meaningful connections.",
+          "Borderline personality disorder often involves emotional instability and fear of abandonment. In therapy, we can focus on emotional regulation, building a strong sense of self, and developing healthier coping mechanisms.",
+          "Antisocial personality disorder may lead to challenges in forming connections. Let's explore prosocial behaviors, communication skills, and strategies for building positive relationships with others.",
+          "Histrionic personality disorder may involve attention-seeking behaviors. In therapy, we can explore more adaptive ways to express yourself, build self-esteem, and cultivate meaningful connections."
       ]
-    },
-    {
-      "tag": "relationship_issues",
+  },
+  {
+      "tag": "Somatization Disorder",
       "patterns": [
-        "Dealing with a breakup",
-        "Coping with loneliness",
-        "How to communicate better in relationships",
-        "Trust issues in relationships",
-        "Overcoming infidelity",
-        "Handling a toxic relationship",
-        "Long-distance relationship advice",
-        "Dealing with a narcissistic partner",
-        "Balancing work and relationships",
-        "How to rebuild a relationship after a fight"
+          "Somatic symptoms",
+          "Chronic pain",
+          "Multiple physical complaints",
+          "Excessive worry about health",
+          "Doctor-shopping",
+          "Functional impairment",
+          "Anxiety about symptoms",
+          "Preoccupation with illness",
+          "Frequent medical visits",
+          "Misattributing physical sensations",
+          "Unexplained medical tests",
+          "Relationship difficulties",
+          "Emotional distress",
+          "Seeking reassurance",
+          "Impaired quality of life"
       ],
       "responses": [
-        "Relationships can be challenging. Let's talk about your experiences.",
-        "I'm here to help with relationship issues. Share your thoughts and concerns.",
-        "Navigating relationships is important. Let's discuss your specific situation."
+          "Experiencing somatic symptoms can be distressing. Let's explore the connection between emotions and physical sensations, develop coping strategies, and work towards improving your overall well-being.",
+          "Chronic pain and multiple physical complaints can impact daily life. In therapy, we can work on pain management techniques, mindfulness, and addressing the underlying emotional factors contributing to your symptoms.",
+          "Excessive worry about health and doctor-shopping are common in somatization disorder. Let's explore ways to manage health-related anxiety, foster a trusting relationship with healthcare providers, and reduce the frequency of medical visits.",
+          "Preoccupation with illness and misattributing physical sensations can affect your daily functioning. Together, we can work on reframing thoughts, addressing emotional distress, and improving your ability to cope with these concerns.",
+          "Relationship difficulties and seeking reassurance may be intertwined with somatization disorder. In therapy, we can explore communication skills, build a support system, and address the impact of these challenges on your relationships."
       ]
-    },
-    {
-      "tag": "workplace_stress",
+  },
+  {
+      "tag": "Panic Disorder",
       "patterns": [
-        "Dealing with workplace stress",
-        "Handling a toxic work environment",
-        "How to set boundaries at work",
-        "Overcoming imposter syndrome at work",
-        "Coping with job loss",
-        "Balancing work and personal life",
-        "Managing conflict with colleagues",
-        "Seeking career guidance",
-        "Dealing with a difficult boss",
-        "Workplace burnout recovery"
+          "Panic attacks",
+          "Sudden fear",
+          "Rapid heartbeat",
+          "Chest pain",
+          "Shortness of breath",
+          "Trembling or shaking",
+          "Dizziness",
+          "Sweating",
+          "Nausea or stomach distress",
+          "Fear of losing control",
+          "Fear of death",
+          "Avoidance behavior",
+          "Hyperventilation",
+          "Tunnel vision",
+          "Feelings of unreality"
       ],
       "responses": [
-        "Workplace stress is common. Let's explore strategies to manage it.",
-        "Handling a toxic work environment can be tough. Let's discuss your situation.",
-        "Balancing work and personal life is crucial. How can I support you in this?"
+          "Experiencing panic attacks can be overwhelming. Let's work on identifying triggers, implementing relaxation techniques, and developing coping strategies to manage and reduce the intensity of panic episodes.",
+          "Sudden fear and physical symptoms like rapid heartbeat can be distressing. Through therapy, we can explore the root causes of your panic attacks, develop grounding exercises, and work towards building resilience.",
+          "Chest pain and shortness of breath during panic attacks can be alarming. Let's address these physical symptoms, explore ways to manage anxiety, and develop a personalized plan to navigate through panic episodes.",
+          "Avoidance behaviors may develop as a result of panic attacks. In therapy, we can work on gradual exposure techniques, challenge negative thought patterns, and develop strategies to face and overcome situations that trigger anxiety.",
+          "Feelings of unreality can accompany panic attacks. Let's explore techniques to ground yourself in the present moment, address cognitive distortions, and work towards reducing the impact of panic disorder on your daily life."
       ]
-    },
-    {
-      "tag": "academic_pressure",
+  },
+  {
+      "tag": "Major Depressive Disorder",
       "patterns": [
-        "Coping with academic pressure",
-        "Overcoming test anxiety",
-        "Dealing with academic burnout",
-        "Balancing academics and social life",
-        "Handling performance anxiety",
-        "Seeking study tips",
-        "Dealing with academic failure",
-        "Overcoming procrastination in studies",
-        "Choosing a career path",
-        "Handling peer pressure in academics"
+          "Persistent low mood",
+          "Loss of interest",
+          "Fatigue",
+          "Sleep disturbances",
+          "Changes in appetite",
+          "Feelings of worthlessness",
+          "Difficulty concentrating",
+          "Suicidal thoughts",
+          "Social withdrawal",
+          "Irritability",
+          "Anhedonia (loss of pleasure)",
+          "Persistent sadness",
+          "Decreased energy",
+          "Psychomotor agitation or retardation",
+          "Hopelessness"
       ],
       "responses": [
-        "Academic pressure can be challenging. Let's discuss ways to cope.",
-        "Test anxiety is common. I can provide tips to help you manage it.",
-        "Balancing academics and social life is important. How can I assist you?"
+          "Experiencing panic attacks can be overwhelming. Let's work on identifying triggers, implementing relaxation techniques, and developing coping strategies to manage and reduce the intensity of panic episodes.",
+          "Sudden fear and physical symptoms like rapid heartbeat can be distressing. Through therapy, we can explore the root causes of your panic attacks, develop grounding exercises, and work towards building resilience.",
+          "Chest pain and shortness of breath during panic attacks can be alarming. Let's address these physical symptoms, explore ways to manage anxiety, and develop a personalized plan to navigate through panic episodes.",
+          "Avoidance behaviors may develop as a result of panic attacks. In therapy, we can work on gradual exposure techniques, challenge negative thought patterns, and develop strategies to face and overcome situations that trigger anxiety.",
+          "Feelings of unreality can accompany panic attacks. Let's explore techniques to ground yourself in the present moment, address cognitive distortions, and work towards reducing the impact of panic disorder on your daily life."
       ]
-    },
-    {
-      "tag": "existential_questions",
+  },
+  {
+      "tag": "Alcohol and Substance Use Disorders",
       "patterns": [
-        "What is the meaning of life?",
-        "Dealing with existential crisis",
-        "Finding purpose and passion",
-        "Coping with the fear of death",
-        "Overcoming existential anxiety",
-        "Seeking spiritual guidance",
-        "Philosophical questions about existence",
-        "Exploring one's life purpose",
-        "Questions about the universe",
-        "Understanding the concept of self"
+          "Substance abuse",
+          "Dependence",
+          "Withdrawal symptoms",
+          "Tolerance",
+          "Cravings",
+          "Social isolation",
+          "Legal issues",
+          "Occupational impairment",
+          "Family conflicts",
+          "Escalating use",
+          "Failed attempts to quit",
+          "Loss of interest in hobbies",
+          "Risky behaviors",
+          "Physical health problems",
+          "Denial of the problem"
       ],
       "responses": [
-        "Exploring existential questions is a deep journey. Let's discuss your thoughts.",
-        "An existential crisis can be profound. How can I support you through it?",
-        "Finding purpose is a meaningful pursuit. Let's explore your passions."
+          "Substance abuse and dependence can have a significant impact on various aspects of your life. Let's explore coping mechanisms, set realistic goals, and work towards creating a healthier lifestyle.",
+          "Withdrawal symptoms and cravings can be challenging to manage. In therapy, we can develop strategies to navigate these urges, address triggers, and foster resilience in your journey to recovery.",
+          "Social isolation and family conflicts often accompany substance use disorders. Let's work on rebuilding connections, improving communication, and developing a support system to enhance your overall well-being.",
+          "Escalating use and failed attempts to quit can be discouraging. Together, we can explore the underlying factors, identify alternative coping strategies, and create a personalized plan for achieving and maintaining sobriety.",
+          "Denial of the problem is a common barrier to seeking help. In therapy, we can work on increasing awareness, fostering motivation for change, and addressing any ambivalence towards recovery."
       ]
-    }
+  },
+  {
+      "tag": "Family Relationships and Marital Problems",
+      "patterns": [
+          "Communication breakdown",
+          "Conflict resolution",
+          "Lack of intimacy",
+          "Trust issues",
+          "Infidelity",
+          "Parenting conflicts",
+          "Emotional distance",
+          "Financial stress",
+          "Role expectations",
+          "Power struggles",
+          "Loss of connection",
+          "Resentment",
+          "Coping with life changes",
+          "Blended family challenges",
+          "Lack of quality time"
+      ],
+      "responses": [
+          "Communication breakdown can strain relationships. Let's work on effective communication strategies, active listening, and fostering a safe space for open dialogue in your marriage.",
+          "Conflict resolution is crucial for a healthy relationship. In therapy, we can explore techniques to address conflicts constructively, understand each other's perspectives, and strengthen your problem-solving skills.",
+          "Lack of intimacy can lead to emotional distance. Let's explore ways to reignite connection, improve emotional intimacy, and foster a more fulfilling relationship.",
+          "Trust issues and infidelity are challenging to navigate. In therapy, we can address the root causes, rebuild trust, and work towards healing the emotional wounds in your relationship.",
+          "Parenting conflicts and financial stress can impact your marriage. Let's develop a collaborative parenting approach, explore financial management strategies, and strengthen your partnership in facing challenges."
+      ]
+  },
+  {
+      "tag": "Relationship Issues",
+      "patterns": [
+          "Communication difficulties",
+          "Trust issues",
+          "Misunderstandings",
+          "Emotional distance",
+          "Lack of quality time",
+          "Different values",
+          "Unmet expectations",
+          "Intimacy concerns",
+          "Resentment",
+          "Power struggles",
+          "Jealousy",
+          "Fear of commitment",
+          "Insecurity",
+          "Infidelity",
+          "Coping with change"
+      ],
+      "responses": [
+          "Communication difficulties can strain relationships. In therapy, we can work on improving communication skills, active listening, and fostering an open and understanding dialogue between you and your partner.",
+          "Trust issues are common in relationships. Let's explore the root causes, establish trust-building exercises, and work towards rebuilding a foundation of trust and security in your relationship.",
+          "Misunderstandings can lead to conflict. Together, we can explore effective communication strategies, clarify intentions, and develop tools for navigating disagreements in a healthy way.",
+          "Emotional distance can be challenging. Let's explore ways to reconnect, improve emotional intimacy, and create a space for vulnerability and open expression within your relationship.",
+          "Lack of quality time can impact closeness. Let's work on time management, prioritize shared activities, and create opportunities for meaningful connection in your relationship."
+      ]
+  }
   ]
 }
