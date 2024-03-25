@@ -1,0 +1,343 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi there!",
+          "Greetings!",
+          "Hello",
+          "Hey, what's up?",
+          "Welcome!",
+          "Good day to you!"
+        ],
+        "responses": [
+          "Hello! I'm here to help. How are you feeling today?",
+          "Greetings! Thanks for reaching out. How can I support you?",
+          "Hi there! What brings you here? Feel free to share.",
+          "Hey! How can I assist you today?",
+          "Welcome! I'm here to chat. What's on your mind?",
+          "Good day! How can I make your day better?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Goodbye for now",
+          "Farewell",
+          "See you later, take care!",
+          "Until we meet again",
+          "Goodbye, have a great day",
+          "Adios!"
+        ],
+        "responses": [
+          "Goodbye for now! Take care of yourself.",
+          "Farewell! If you ever need assistance, I'll be here.",
+          "See you later! Take care and have a great day.",
+          "Until we meet again! Feel free to return anytime.",
+          "Goodbye, have a great day ahead!",
+          "Adios! If you ever need someone to talk to, I'm here."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks a bunch!",
+          "Thank you so much!",
+          "Appreciate your help",
+          "Thanks for being here",
+          "You're awesome!",
+          "Big thank you!"
+        ],
+        "responses": [
+          "You're welcome! If you have more questions, feel free to ask.",
+          "Thank you! I'm here to assist whenever you need.",
+          "Appreciate your kind words! If there's anything else, let me know.",
+          "Thanks for being here! If you need support, I'm just a message away.",
+          "You're awesome too! Let me know how I can further assist you.",
+          "Big thank you! It's my pleasure to help. Anything else on your mind?"
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Make me laugh!",
+          "Got any funny stories?",
+          "Humor me!",
+          "Need a good laugh!",
+          "Share something amusing!"
+        ],
+        "responses": [
+          "Why don't scientists trust atoms? Because they make up everything!",
+          "What's a computer's favorite snack? Microchips!",
+          "Why did the scarecrow win an award? Because he was outstanding in his field!",
+          "I used to play piano by ear, but now I use my hands and fingers.",
+          "Parallel lines have so much in common. It's a shame they'll never meet."
+        ]
+      },
+      {
+        "tag": "psych_conditions",
+        "patterns": [
+          "I'm dealing with social anxiety",
+          "Living with bipolar disorder",
+          "Coping with PTSD",
+          "Struggling with eating disorders",
+          "Managing ADHD",
+          "Dealing with seasonal affective disorder (SAD)",
+          "Living with borderline personality disorder (BPD)",
+          "Coping with self-harm urges",
+          "I have generalized anxiety disorder (GAD)",
+          "Living with postpartum depression"
+        ],
+        "responses": [
+          "I'm here for you. Can you share more about your experiences?",
+          "Thank you for opening up. How has it been affecting your daily life?",
+          "Let's talk about it. Your feelings are important."
+        ]
+      },
+      {
+        "tag": "info_gathering",
+        "patterns": [
+          "Tell me more about yourself",
+          "Can you describe your symptoms?",
+          "When did it start?",
+          "How often do you feel this way?",
+          "Any specific triggers?",
+          "What treatments have you tried?",
+          "Have you spoken to a professional about it?",
+          "How is your sleep pattern?",
+          "Tell me about your support system",
+          "Any recent life changes affecting you?"
+        ],
+        "responses": [
+          "I appreciate your openness. Understanding your experience helps.",
+          "The more details you provide, the better I can assist you.",
+          "Let's explore your feelings together. More information can guide us."
+        ]
+      },
+      {
+        "tag": "therapy_options",
+        "patterns": [
+          "What are therapy options?",
+          "Tell me about counseling",
+          "Are there online therapy options?",
+          "Recommend a therapist",
+          "How can I find support groups?",
+          "Explain cognitive-behavioral therapy (CBT)",
+          "Tell me about psychotherapy",
+          "How does group therapy work?",
+          "What's the difference between a psychologist and a psychiatrist?",
+          "How effective is mindfulness-based therapy?"
+        ],
+        "responses": [
+          "Therapy can be beneficial. We can explore various options.",
+          "Considering therapy is a positive step. Let's discuss possibilities.",
+          "I can provide resources for therapists and support groups."
+        ]
+      },
+      {
+        "tag": "medication_info",
+        "patterns": [
+          "Tell me about medications",
+          "Are there side effects of antidepressants?",
+          "How to manage medication",
+          "Should I consider medication?",
+          "Tell me about natural remedies",
+          "Explain the role of mood stabilizers",
+          "What are the common side effects of antipsychotic medications?",
+          "Tell me about SSRI and SNRI antidepressants",
+          "How long does it take for medications to show effects?",
+          "Are there alternatives to prescription medications?"
+        ],
+        "responses": [
+          "Medication is one approach. Let's discuss its pros and cons.",
+          "Understanding medication options is important. Let's explore.",
+          "I can provide information on medications and alternative approaches."
+        ]
+      },
+      {
+        "tag": "self_care_tips",
+        "patterns": [
+          "What are self-care tips?",
+          "How to practice self-love",
+          "Tell me about stress management",
+          "Any relaxation techniques?",
+          "How to improve mental health",
+          "Share mindfulness exercises",
+          "Tips for maintaining a healthy work-life balance",
+          "Explain the importance of physical exercise for mental health",
+          "What are grounding techniques?",
+          "How can I foster better relationships with others?"
+        ],
+        "responses": [
+          "Self-care is crucial. Let's explore personalized strategies for you.",
+          "Taking care of yourself is vital. I can suggest self-care practices.",
+          "Improving mental health involves self-care. Let's discover what works for you."
+        ]
+      },
+      {
+        "tag": "support_resources",
+        "patterns": [
+          "Share mental health hotlines",
+          "How can I access crisis intervention services?",
+          "Tell me about online mental health forums",
+          "Recommend books on mental health",
+          "Suggest mental health apps",
+          "What are the signs of a mental health crisis?",
+          "Tell me about suicide prevention resources",
+          "Explain the importance of a strong social support network",
+          "How to help a friend struggling with mental health issues",
+          "Share success stories of overcoming mental health challenges"
+        ],
+        "responses": [
+          "It's important to reach out for support. Here are some resources.",
+          "You're not alone. Consider these resources for additional help.",
+          "Building a support network is crucial. Let me share some resources with you."
+        ]
+      },
+      {
+        "tag": "coping_strategies",
+        "patterns": [
+          "How to cope with anxiety attacks",
+          "Tell me about coping mechanisms for depression",
+          "Ways to manage obsessive thoughts",
+          "Coping strategies for PTSD",
+          "Dealing with mood swings",
+          "Tell me about anger management techniques",
+          "How to overcome social anxiety",
+          "Coping with eating disorder triggers",
+          "Managing ADHD symptoms",
+          "Coping with the stigma of mental illness"
+        ],
+        "responses": [
+          "Coping strategies are important. Let's explore techniques together.",
+          "Developing healthy coping mechanisms is a positive step. Let's discuss.",
+          "I can provide strategies to help you cope with various challenges."
+        ]
+      },
+      {
+        "tag": "encouragement",
+        "patterns": [
+          "I feel hopeless",
+          "I don't know if I can go on",
+          "I'm struggling to see the purpose",
+          "Does life get better?",
+          "I need encouragement",
+          "I feel lost",
+          "I can't handle this anymore",
+          "I'm overwhelmed",
+          "I feel like a burden",
+          "I'm afraid of the future"
+        ],
+        "responses": [
+          "I'm really sorry to hear that you're feeling this way. You're not alone.",
+          "It's okay to feel overwhelmed. Reach out to someone you trust for support.",
+          "Life can be tough, but reaching out for help is a courageous step.",
+          "You're stronger than you think. Consider talking to a professional about your feelings."
+        ]
+      },
+      {
+        "tag": "positive_affirmations",
+        "patterns": [
+          "Give me positive affirmations",
+          "I need motivation",
+          "Share uplifting quotes",
+          "Tell me something positive",
+          "Help me focus on the good",
+          "I want to feel inspired",
+          "Encourage me",
+          "Boost my mood",
+          "I need a pick-me-up",
+          "Share a positive story"
+        ],
+        "responses": [
+          "You are capable of handling whatever comes your way.",
+          "Believe in yourself. You have the strength to overcome challenges.",
+          "Every day is a new opportunity for positive change.",
+          "Focus on the present moment and find joy in the little things.",
+          "You matter, and your presence makes a difference in the world."
+        ]
+      },
+      {
+        "tag": "relationship_issues",
+        "patterns": [
+          "Dealing with a breakup",
+          "Coping with loneliness",
+          "How to communicate better in relationships",
+          "Trust issues in relationships",
+          "Overcoming infidelity",
+          "Handling a toxic relationship",
+          "Long-distance relationship advice",
+          "Dealing with a narcissistic partner",
+          "Balancing work and relationships",
+          "How to rebuild a relationship after a fight"
+        ],
+        "responses": [
+          "Relationships can be challenging. Let's talk about your experiences.",
+          "I'm here to help with relationship issues. Share your thoughts and concerns.",
+          "Navigating relationships is important. Let's discuss your specific situation."
+        ]
+      },
+      {
+        "tag": "workplace_stress",
+        "patterns": [
+          "Dealing with workplace stress",
+          "Handling a toxic work environment",
+          "How to set boundaries at work",
+          "Overcoming imposter syndrome at work",
+          "Coping with job loss",
+          "Balancing work and personal life",
+          "Managing conflict with colleagues",
+          "Seeking career guidance",
+          "Dealing with a difficult boss",
+          "Workplace burnout recovery"
+        ],
+        "responses": [
+          "Workplace stress is common. Let's explore strategies to manage it.",
+          "Handling a toxic work environment can be tough. Let's discuss your situation.",
+          "Balancing work and personal life is crucial. How can I support you in this?"
+        ]
+      },
+      {
+        "tag": "academic_pressure",
+        "patterns": [
+          "Coping with academic pressure",
+          "Overcoming test anxiety",
+          "Dealing with academic burnout",
+          "Balancing academics and social life",
+          "Handling performance anxiety",
+          "Seeking study tips",
+          "Dealing with academic failure",
+          "Overcoming procrastination in studies",
+          "Choosing a career path",
+          "Handling peer pressure in academics"
+        ],
+        "responses": [
+          "Academic pressure can be challenging. Let's discuss ways to cope.",
+          "Test anxiety is common. I can provide tips to help you manage it.",
+          "Balancing academics and social life is important. How can I assist you?"
+        ]
+      },
+      {
+        "tag": "existential_questions",
+        "patterns": [
+          "What is the meaning of life?",
+          "Dealing with existential crisis",
+          "Finding purpose and passion",
+          "Coping with the fear of death",
+          "Overcoming existential anxiety",
+          "Seeking spiritual guidance",
+          "Philosophical questions about existence",
+          "Exploring one's life purpose",
+          "Questions about the universe",
+          "Understanding the concept of self"
+        ],
+        "responses": [
+          "Exploring existential questions is a deep journey. Let's discuss your thoughts.",
+          "An existential crisis can be profound. How can I support you through it?",
+          "Finding purpose is a meaningful pursuit. Let's explore your passions."
+        ]
+      }
+    ]
+  }
+  
