@@ -20,7 +20,9 @@ def get_employees():
 
 @app.route('/systemAnswer', methods=['POST'])
 def get_info():
-    return jsonify({"systemMessage" : systemMessage(request.json['messageContent']) })
+    sysMsg, sysQstn = systemMessage(request.json['messageContent'])
+
+    return jsonify({"systemMessage" : sysMsg, "systemQuestion": sysQstn})
 
 if __name__ == '__main__':
     app.run( host = '192.168.1.15', port = 5000 ,debug=True)
