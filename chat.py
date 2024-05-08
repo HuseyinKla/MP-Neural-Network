@@ -41,6 +41,6 @@ def systemMessage(msg):
     if prob.item() > 0.75:
         for intent in intents['intents']:
             if tag == intent["tag"]:
-                return ( random.choice(intent['responses']), random.choice(intent['questions']) )
+                return ( random.choice(intent['responses']), random.choice(intent['questions']), tag )
     else:
-        return "I do not understand...", "Please enter something else I can understand."
+        return "I do not understand...", "Please enter something else I can understand.", "Empty"
